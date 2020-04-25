@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More_Fragment">
+
+    <LinearLayout
+        android:background="#f7f4f4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shm2"/>
+            <TextView
+                android:id="@+id/view_setting_more"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="إعدادات"
+                android:layout_gravity="center"
+                android:paddingRight="15dp"
+                android:textSize="12sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/setting"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#cfcacc"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shm2"/>
+            <TextView
+                android:id="@+id/view_call_more"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اتصل بنا"
+                android:layout_gravity="center"
+                android:paddingRight="15dp"
+                android:textSize="12sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/call"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#cfcaca"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shm2"/>
+            <TextView
+                android:id="@+id/view_about_more"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عن فيزيتا"
+                android:layout_gravity="center"
+                android:paddingRight="15dp"
+                android:textSize="12sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/about2"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#cfcaca"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shm2"/>
+            <TextView
+                android:id="@+id/view_enter_login_more"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="دخول"
+                android:layout_gravity="center"
+                android:paddingRight="15dp"
+                android:textSize="12sp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exsit"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
